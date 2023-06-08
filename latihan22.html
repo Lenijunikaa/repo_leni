@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Registrasi Visa</title>
+</head>
+<body>
+    <fieldset>
+        <h2 style="text-align: center;">FORMULIR REGISTRASI VISA</h2>
+        <h3 style="text-align: center;">UNTUK MEMASUKI JEPANG</h3>
+        <P style="text-align: center;"><i>REGISTRATION FORM FOR VISA WAIVER TO ENTER JAPAN</i></P>
+        <hr />
+        <form action="www.example.com" method="POST">
+            <p>Nama Lengkap :
+                <input type="text" name="Nama Lengkap" placeholder="Masukkan Nama"/><br>
+            </p>
+            <p>Tanggal Lahir :
+                <input type="date" name="Tanggal"/><br>
+            </p>
+            <p>Jenis Kelamin :
+                <input type="radio" name="kelamin" value="Laki-laki"/> Laki-laki
+                <input type="radio" name="kelamin" value="Perempuan"/> Perempuan
+            </p>
+            <p>Warga Negara :
+                <select>
+                    <option value="Indonesia">Indonesia</option>
+                    <option value="Malaysia">Malaysia</option>
+                    <option value="Cina">China</option>
+                    <option value="Singapura">Singapura</option>
+                    <option value="Jepang">Jepang</option>
+                </select>
+            </p>
+            <p>Nomor Paspor :
+                <input type="text" name="Nomor Paspor" placeholder="Masukkan Nomor"/>
+                <blockquote>
+                Tanggal Terbit :
+                <input type="date" name="Tanggal"/></p>
+                Tanggal Kadaluarsa :
+                <input type="date" name="Tanggal"/></p>
+                </blockquote>
+            </p>
+            <p>Alamat :
+                <input type="text" name="Alamat" placeholder="Alamat Lengkap"/>
+            </p>
+            <p>Telp. :
+                <input type="text" name="Nomor" placeholder="Nomor Telephone"/>
+            </p>
+            <p>
+                HP :
+                <input type="text" name="Nomor HP" placeholder="Nomor Handphone"/>
+            </p>
+            <p>Keterangan :
+                <br>
+                <textarea name="Masukkan Keterangan" cols="50" rows="10" placeholder="Masukkan Keterangan Anda"></textarea>
+            </p>
+            <p>Tanggal Permohonan :
+                <input type="date" name="Tanggal"/>
+            </p>
+            <p>Tanda Tangan Pemohon</p><br>
+            <p>___________________</p>
+        <p>
+            <blockquote>
+                <input type="submit" name="submit" value="Simpan" style="background-color: skyblue;"/>
+                <input type="reset" name="reset" value="Batal" style="background-color: red;"/>
+            </blockquote>
+        </p>
+        </form>
+    </fieldset>
+</body>
+</html>
